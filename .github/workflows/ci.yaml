@@ -23,7 +23,7 @@ jobs:
           activate-environment: tiny-diffusion
           environment-file: environment.yml
           python-version: 3.11
-          auto-activate: false
+          auto-activate-base: false
 
       - name: Run pre-commit (linting/formatting/mypy etc)
         shell: bash -l {0}
