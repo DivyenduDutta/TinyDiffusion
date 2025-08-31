@@ -20,7 +20,7 @@ jobs:
       - name: Set up Miniconda
         uses: conda-incubator/setup-miniconda@v3
         with:
-          activate-environment: ndnet
+          activate-environment: tiny-diffusion
           environment-file: environment.yml
           python-version: 3.11
           auto-activate: false
@@ -28,5 +28,5 @@ jobs:
       - name: Run pre-commit (linting/formatting/mypy etc)
         shell: bash -l {0}
         run: |
-          conda activate ndnet
+          conda activate tiny-diffusion
           pre-commit run --all-files --show-diff-on-failure
