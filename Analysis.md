@@ -12,7 +12,7 @@ While doing `pipe = StableDiffusionPipeline.from_pretrained(model_id, variant="f
 
 ### Metrics
 
-#### Stable Diffusion on GPU
+#### Stable Diffusion on Nvidia Geforce GTX 1070 GPU
 
 Average inference time: 28.63s ± 3.09s
 
