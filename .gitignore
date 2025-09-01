@@ -201,3 +201,9 @@ cython_debug/
 
 # Log folder
 /logs/
+
+# model checkpoints
+/checkpoints/
+
+# Results
+/results/generated_images/

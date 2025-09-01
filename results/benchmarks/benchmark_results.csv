@@ -1,0 +1,2 @@
+desc,avg_inference_time,std_inference_time,avg_cpu_mem_usage,std_cpu_mem_usage,avg_gpu_mem_usage,std_gpu_mem_usage
+stable_diffusion_GPU,28.794894647598266,2.808588022429784,897.65859375,1.677354443989871,2486.42822265625,0.0
