@@ -67,7 +67,7 @@ Before committing changes run `pre-commit run --all-files` or `pre-commit run --
 
 ### Generating Benchmarks
 
-Run
+Execute
 ```bash
 notebooks/baseline_generation.ipynb
 ```
@@ -75,13 +75,13 @@ to benchmark the Pytorch version of Stable Diffusion's UNet from HuggingFace.
 
 
 Run
-```python
+```bash
 python tinydiffusion/src/onnx_export.py
 ```
 to export the UNet to an ONNX graph.
 
 
-Then run
+Then execute
 ```bash
 notebooks/onnxruntime_generation.ipynb
 ```
@@ -90,7 +90,7 @@ to benchmark the ONNXRuntime version of UNet on GPU and CPU.
 ### Visualizing
 
 Once all the benchmarking results populated in `results/benchmarks/benchmark_results.csv`, run
-```python
+```bash
 python tinydiffusion/src/benchmark_visualizer.py
 ```
 to generate the visualization plots for comparison.
